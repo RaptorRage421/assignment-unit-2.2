@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// create a variable 'name' and set it equal to 'Dane'
+// create a conditional if name is exactly 'Mary', send a console log result of 'Hi, Mary!'
+// if name does not equal Mary, console log the result 'How do you do?'
+// since the name is not equal to Mary, we console.log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// create a variable 'secret'
+// create a variable 'code' and set it equal to '123'
+// create a conditional if code is exactly '123', set 'secret' equals 'super'. and double the value of 'code'
+// run a new conditional if code is greater than '250' set secret to 'duper'
+// console log the value of secret
+// we console log the result is 'super'
 
 //CODE
 /*
@@ -70,10 +72,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//  create a boolean variable isStudent and set it to 'true'
+//  create a variable 'age' and set it to 34
+//  create a variable 'zip' and let it = 55407
+//  create a compound conditional if isStudent is true AND zip is greater than 80000, console log 'You're a studnet on the West Coast!'
+//  if that compound conditional is false, create a new compound conditional if isStudent is false OR age is less than 30, console log 'What are your hobbies?'
+//  if that compound is also false, create a new condition if isStudent is true, console log 'Welcome to Prime!'
+//  if none of the conditionals are accurate, console log 'How about the weather?'
+//  because Student is true but none of the other variables hit their conditional statements, we console log "Welcome to Prime!"
 
 //CODE
 /*
@@ -135,6 +141,8 @@ let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+//FIX - this code doesn't change the value of colorTwo to 'purple'
+//need to add a line in the conditional colorTwo = 'purple'
   colorOne = 'purple';
 }
 */
@@ -147,6 +155,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX - this conditional is an either or, while it is supposed to be a BOTH/AND compound conditional
+// should be if (temp > 39 && time >= 4) {
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,6 +169,13 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+
+//FIX - this conditional is setup in reverse. it is checking if minAge is less than or equal to age which will push an incorrect result of 'no entry' 
+//we want to check if age is greater than or equal to min age to allow entry, so only if age is less than minAge will it return 'no entry'
+// should be: if(age >= minAge) {
+// console.log('entry');
+// } else {console.log('no entry')}
 
 if(minAge <= age) {
   console.log('no entry');
