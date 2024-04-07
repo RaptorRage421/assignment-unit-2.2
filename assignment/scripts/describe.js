@@ -27,7 +27,7 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // create a variable 'name' and set it equal to 'Dane'
-// create a conditional if name is exactly 'Mary', send a console log result of 'Hi, Mary!'
+// check if name is equal to  'Mary', send a console log result of 'Hi, Mary!'
 // if name does not equal Mary, console log the result 'How do you do?'
 // since the name is not equal to Mary, we console.log 'How do you do?'
 
@@ -47,8 +47,8 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // create a variable 'secret'
 // create a variable 'code' and set it equal to '123'
-// create a conditional if code is exactly '123', set 'secret' equals 'super'. and double the value of 'code'
-// run a new conditional if code is greater than '250' set secret to 'duper'
+// check if code is exactly '123', if it is set 'secret' equals 'super'. and then double the value of 'code'
+// check the value of code again, if code is greater than '250' set secret to 'duper'
 // console log the value of secret
 // we console log the result is 'super'
 
@@ -75,7 +75,7 @@ console.log(secret)
 //  create a boolean variable isStudent and set it to 'true'
 //  create a variable 'age' and set it to 34
 //  create a variable 'zip' and let it = 55407
-//  create a compound conditional if isStudent is true AND zip is greater than 80000, console log 'You're a studnet on the West Coast!'
+//  create a compound conditional if isStudent is true AND zip is greater than 80000, console log 'You're a student on the West Coast!'
 //  if that compound conditional is false, create a new compound conditional if isStudent is false OR age is less than 30, console log 'What are your hobbies?'
 //  if that compound is also false, create a new condition if isStudent is true, console log 'Welcome to Prime!'
 //  if none of the conditionals are accurate, console log 'How about the weather?'
